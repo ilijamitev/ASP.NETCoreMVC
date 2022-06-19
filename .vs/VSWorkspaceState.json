@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Classes",
+    "\\Classes\\Class01 - Intro",
+    "\\Classes\\Class01 - Intro\\.Net6",
+    "\\Classes\\Class01 - Intro\\.Net6\\DotNet6",
+    "\\Classes\\Class01 - Intro\\.NetCore3.1",
+    "\\Classes\\Class01 - Intro\\.NetCore3.1\\DotNetCore3.1"
   ],
   "PreviewInSolutionExplorer": false
 }

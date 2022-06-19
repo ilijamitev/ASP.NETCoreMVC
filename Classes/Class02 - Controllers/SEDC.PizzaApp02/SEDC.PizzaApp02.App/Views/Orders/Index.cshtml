@@ -1,0 +1,36 @@
+﻿@model List<Order>
+
+<h2 class="text-center text-warning">List of Orders</h2>
+
+
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th scope="col" rowspan="2">Order Id</th>
+            <th scope="col" rowspan="1" colspan="3">Customer Info</th>
+            <th scope="col" rowspan="1" colspan="2">Pizza Info</th>
+            <th scope="col" rowspan="2">Delivered</th>
+        </tr>
+        <tr>
+            <th scope="col">Full Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Pizza Name</th>
+            <th scope="col">Pizza Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Order order in Model)
+        {
+            <tr>
+                <th scope="row">@order.Id</th>
+                <td>@order.User.FullName</td>
+                <td>@order.User.Address</td>
+                <td>@order.User.PhoneNumber</td>
+                <td>@order.Pizza.Name</td>
+                <td>@order.Pizza.Price</td>
+                <td>@(order.IsDelivered ? "Yes" : "No")</td>
+            </tr>
+        }
+    </tbody>
+</table>
