@@ -2,7 +2,7 @@
 {
     public class Order : BaseEntity
     {
-        private int IdGenerator { get; init; } = 0;
+        private static int _idGenerator = 0;
         public string FullName { get; set; }
         public string Address { get; set; }
         public List<Burger> Burgers { get; set; }
@@ -12,7 +12,7 @@
 
         public Order(string fullName, string address, List<Burger> burgers, string location, bool isDelivered)
         {
-            Id = ++IdGenerator;
+            Id = ++_idGenerator;
             FullName = fullName;
             Address = address;
             Burgers = burgers;

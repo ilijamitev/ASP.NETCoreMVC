@@ -2,7 +2,7 @@
 {
     public class Burger : BaseEntity
     {
-        private int IdGenerator { get; init; } = 0;
+        private static int _idGenerator = 0;
         public string Name { get; set; }
         public double Price { get; set; }
         public bool IsVegeterian { get; set; }
@@ -12,7 +12,7 @@
 
         public Burger(string name, double price, bool isVegeterian, bool isVegan, bool hasFries)
         {
-            Id = ++IdGenerator;
+            Id = ++_idGenerator;
             Name = name;
             Price = price;
             IsVegeterian = isVegeterian;
