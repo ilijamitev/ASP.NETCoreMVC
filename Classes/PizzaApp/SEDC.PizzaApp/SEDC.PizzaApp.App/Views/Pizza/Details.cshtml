@@ -1,0 +1,11 @@
+﻿@model Pizza
+
+<div class="d-flex flex-column" style="font-size:1.5rem;">
+    <h5 class="text-warning" style="font-size:1.5em;">Details for @Model.Name</h5><br />
+    <ul>
+        <li><b>Id</b> : @Model.Id</li>
+        <li><b>Name</b> : @Model.Name</li>
+        <li><b>Price</b> : @Model.Price</li>
+        <li><b>Promotion</b> : @(Model.IsOnPromotion ? "Yes" : "No")</li>
+    </ul>
+</div>

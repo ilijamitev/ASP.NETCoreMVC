@@ -1,0 +1,13 @@
+﻿@model List<Burger>
+
+<h2>LIST OF BURGERS</h2>
+
+<ul>
+    @foreach (Burger burger in Model)
+    {
+        <li>Burger Id - @burger.Id</li>
+        <li>Burger Name - @burger.Name</li>
+        <li>Burger Price - @burger.Price</li>
+    }
+</ul>
+

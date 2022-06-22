@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XySmFwfx2LbPX0ctKDCCbbUfdjPY1Jc4ri0/fk+FZBL+MyZfW5xnx+0PRMyCdBxqOl6cWRuzVJNl6mnoRzamVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Classes\\PizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.App\\SEDC.PizzaApp.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
