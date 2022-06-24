@@ -17,23 +17,32 @@ namespace SEDC.PizzaApp.App.Controllers
         }
 
         [HttpGet]
+        // USING THE AUTO MAPPER ==>
         public IActionResult Index()
         {
             List<Order> ordersFromDb = StaticDb.Orders;
             if (ordersFromDb == null) return NotFound();
-            List<OrderListViewModel> model = ordersFromDb.OrderListViewModelMapper();
+            var model = ordersFromDb.Select(_mapper.Map<Order, OrderListViewModel>).ToList();
+            ViewData["Title"] = $"Orders list";
+            ViewData["Message"] = $"We have total orders of {model.Count}";
             return View(model);
         }
 
-        //// USING THE AUTO MAPPER ==>
+        #region USING HARDCODE MAPPER ==>
         //public IActionResult Index()
         //{
         //    List<Order> ordersFromDb = StaticDb.Orders;
         //    if (ordersFromDb == null) return NotFound();
-        //    var model = _mapper.Map<List<OrderListViewModel>>(ordersFromDb);
+        //    List<OrderListViewModel> model = ordersFromDb.MapToOrderListViewModel();
+        //    ViewData["Message"] = $"We have total orders of {model.Count}";
+        //    ViewData["Title"] = $"Orders list";
+        //    // sekogas da se stava ? pred da povikam properti ... vo slucaj ako nema first user
+        //    ViewData["FirstUser"] = $"Our very first user in the system is {StaticDb.Users.First()?.FirstName} ";
         //    return View(model);
         //}
+        #endregion
 
+        #region BAD WAY FOREACH ==>
         //public IActionResult Index()
         //{
         //    var ordersFromDb = StaticDb.Orders;
@@ -49,24 +58,28 @@ namespace SEDC.PizzaApp.App.Controllers
         //    }
         //    return View(model);
         //}
+        #endregion
+
 
         [HttpGet("details/{id}")]
+        // USING THE AUTO MAPPER ==>
         public IActionResult Details(int? id)
         {
             Order requestedOrder = StaticDb.Orders.FirstOrDefault(o => o.Id == id);
             if (requestedOrder == null) return NotFound();
-            var model = requestedOrder.OrderDetailsViewModelMapper();
+            var model = _mapper.Map<OrderDetailsViewModel>(requestedOrder);
             return View(model);
         }
 
-        //// USING THE AUTO MAPPER ==>
+        #region USING HARDCODED MAPPER
         //public IActionResult Details(int? id)
         //{
         //    Order requestedOrder = StaticDb.Orders.FirstOrDefault(o => o.Id == id);
         //    if (requestedOrder == null) return NotFound();
-        //    var model = _mapper.Map<OrderDetailsViewModel>(requestedOrder);
+        //    var model = requestedOrder.MapToOrderDetailsViewModel();
         //    return View(model);
         //}
+        #endregion
 
         [HttpGet("details/json")]
         public IActionResult GetJsonData()

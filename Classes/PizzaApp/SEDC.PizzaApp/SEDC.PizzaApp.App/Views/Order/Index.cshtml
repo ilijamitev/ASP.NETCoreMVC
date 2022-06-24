@@ -1,7 +1,11 @@
 ﻿@model List<OrderListViewModel>
 
+@{
+    ViewData["Title"] = "Order Menu";
+}
+
 <div class="d-flex flex-column" style="font-size:1.5rem;">
-    <h2 class="text-warning" style="font-size:1.5em;">List of orders</h2><br />
+    <h2 class="text-warning" style="font-size:1.5em;">@ViewData["Title"]</h2><br />
     <ul>
         @foreach (var orderInfo in Model)
         {
@@ -10,4 +14,6 @@
             <br />
         }
     </ul>
+    <h4>@ViewData["Message"]</h4>
+    <h4>@ViewData["FirstUser"]</h4>
 </div>

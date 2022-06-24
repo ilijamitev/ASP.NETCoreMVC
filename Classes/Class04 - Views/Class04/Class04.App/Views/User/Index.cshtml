@@ -1,0 +1,13 @@
+﻿@model User
+
+@{
+    Layout = "_CustomLayout";
+    string employmentStatus = "";
+    employmentStatus = Model.IsEmployeed ? "Employed" : "Not employed";
+}
+
+
+<h2>@Model.ToString()</h2>
+<p>Name : @Model.FirstName</p>
+<p>@(Model.LastName.EndsWith('a') ? "Ms" : "Mr") @Model.FirstName</p>
+<p>Employment status : @employmentStatus</p>

@@ -1,0 +1,46 @@
+﻿@model OrderDetailsViewModel
+
+@{
+    string isOrderDelivered = string.Empty;
+    string isOrderDeliveredColor = string.Empty;
+    if (Model.IsDelivered)
+    {
+        isOrderDelivered = "Yes";
+        isOrderDeliveredColor = "darkgreen";
+    }
+    else
+    {
+        isOrderDelivered = "No";
+        isOrderDeliveredColor = "red";
+    }
+}
+
+<table class="table table-hover text-center">
+    <thead>
+        <tr>
+            <th scope="col" rowspan="1" colspan="3">Order Info</th>
+            <th scope="col" rowspan="1" colspan="2">Customer Info</th>
+            <th scope="col" rowspan="1" colspan="2">Pizza Info</th>
+        </tr>
+        <tr>
+            <th scope="col">Order Id</th>
+            <th scope="col">Delivered</th>
+            <th scope="col">Payment Method</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Pizza Name</th>
+            <th scope="col">Pizza Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.OrderId</th>
+            <td style="color:@isOrderDeliveredColor;">@isOrderDelivered</td>
+            <td>@Model.PaymentMethod</td>
+            <td>@Model.FullName</td>
+            <td>@Model.Address</td>
+            <td>@Model.PizzaName</td>
+            <td>@Model.PizzaPrice</td>
+        </tr>
+    </tbody>
+</table>

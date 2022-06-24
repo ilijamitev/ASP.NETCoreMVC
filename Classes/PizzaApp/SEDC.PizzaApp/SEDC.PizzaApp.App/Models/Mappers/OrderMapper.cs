@@ -5,7 +5,7 @@ namespace SEDC.PizzaApp.App.Models.Mappers
 {
     public static class OrderMapper
     {
-        public static List<OrderListViewModel> OrderListViewModelMapper(this List<Order> orders)
+        public static List<OrderListViewModel> MapToOrderListViewModel(this List<Order> orders)
         {
             var ordersList = new List<OrderListViewModel>();
             foreach (var order in orders)
@@ -14,7 +14,7 @@ namespace SEDC.PizzaApp.App.Models.Mappers
             }
             return ordersList;
         }
-        public static OrderDetailsViewModel OrderDetailsViewModelMapper(this Order order)
+        public static OrderDetailsViewModel MapToOrderDetailsViewModel(this Order order)
         {
             return new OrderDetailsViewModel()
             {
