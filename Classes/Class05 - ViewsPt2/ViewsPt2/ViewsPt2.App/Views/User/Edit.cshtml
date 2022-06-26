@@ -1,0 +1,27 @@
+﻿@model User
+
+<form asp-controller="User" asp-action="Edit">
+    <input asp-for="Id" hidden />
+
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" />
+    <span class="text-danger" asp-validation-for="FirstName"></span>
+    <br /><br />
+
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" />
+    <span asp-validation-for="LastName"></span>
+    <br /><br />
+
+    <label asp-for="Address"></label>
+    <input asp-for="Address" />
+    <span asp-validation-for="Address"></span>
+    <br /><br />
+
+    <label asp-for="PhoneNumber"></label>
+    <input asp-for="PhoneNumber" />
+    <span asp-validation-for="PhoneNumber"></span>
+    <br /><br />
+
+    <button>Edit User</button>
+</form>

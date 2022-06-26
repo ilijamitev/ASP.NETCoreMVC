@@ -23,11 +23,6 @@ namespace BurgerShop.App.Controllers
             return View();
         }
 
-        public IActionResult ShowBurgerInfo()
-        {
-            return View(StaticDb.Burgers);
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

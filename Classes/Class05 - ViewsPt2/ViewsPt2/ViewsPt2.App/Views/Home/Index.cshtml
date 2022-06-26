@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*ova aps-route-ID = "0" => ID e parametarot sto treba da go pratime na akcijata*@
+@*<a asp-controller="Orders" asp-action="Order" asp-route-id="0">Order no. 0</a>*@
+
+@*// Creating an input field that is hidden for a property
+<input type="hidden" asp-for="Id" />*@
+
+@*when we want to edit some user ex. change name, we put the id hidden in the form za da koga ke se submit da znae koj user po id da go smeni*@

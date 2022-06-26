@@ -1,0 +1,19 @@
+﻿@model User
+
+
+
+@*Html helper Display*@
+
+
+@Html.Label("FirstName")
+@Html.Display("FirstName")  @*NE SE PREPORACUVA ==> moznost za typos*@
+<br />
+
+
+@Html.LabelFor(x=> x.LastName)
+@Html.DisplayFor(x=> x.LastName)
+<br />
+<br />
+
+<label asp-for="PhoneNumber">Phone Number</label>
+@Html.DisplayFor(x=>x.PhoneNumber)
