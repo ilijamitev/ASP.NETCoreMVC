@@ -14,9 +14,28 @@ namespace BurgerShop.App
 
         public static List<Order> Orders { get; set; } = new()
         {
-            new Order("Ilija Mitev", "Skupi bb.", new List<Burger> {Burgers[1],Burgers[2]}, "Skopje", false),
-            new Order("Pink Panther", "Pinkstreet bb.", new List<Burger> {Burgers[0]}, "Hollywood", false),
-            new Order("Snoopy", "Snupi bb.", new List<Burger> {Burgers[1],Burgers[3]}, "Skopje", false),
+           
+            new Order()
+            {
+                FullName = "Ilija Mitev",
+                Address = "Skupi bb.",
+                Burgers = new List<Burger> {Burgers[1],Burgers[2]},
+            },  
+            
+            new Order()
+            {
+                FullName = "Pink Panther",
+                Address = "Pinkstreet bb.",
+                Burgers = new List<Burger> {Burgers[0]},
+                Location = "Hollywood",
+            },  
+            
+            new Order()
+            {
+                FullName = "Snoopy",
+                Address = "Snupi bb.",
+                Burgers = new List<Burger> {Burgers[1],Burgers[3]},
+            },
         };
     }
 }

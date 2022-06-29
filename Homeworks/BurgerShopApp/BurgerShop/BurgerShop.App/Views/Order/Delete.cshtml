@@ -1,0 +1,9 @@
+﻿@model DeleteOrderViewModel
+
+<div class="card w-50">
+    <div class="card-body">
+        <h5 class="card-title">Are you sure you want to delete order &numero; <span class="text-warning">@Model.Id</span> for user  <span class="text-warning">@Model.FullName</span></h5>
+        <a asp-route-id="@Model.Id" asp-action="ConfirmDelete" class="btn btn-danger">Delete</a>
+        <a asp-action="Index" class="btn btn-primary">Cancel</a>
+    </div>
+</div>

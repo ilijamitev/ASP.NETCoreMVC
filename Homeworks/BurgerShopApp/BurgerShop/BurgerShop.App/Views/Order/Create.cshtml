@@ -1,0 +1,34 @@
+﻿@model CreateOrderViewModel
+
+<h2 class="text-warning">Create new Order</h2>
+<br />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label class="form-label" asp-for="FullName"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span class="text-danger" asp-validation-for="FullName"></span>
+            </div><br />
+
+            <div class="form-group">
+                <label class="form-label" asp-for="Address"></label>
+                <input asp-for="Address" class="form-control" />
+                <span class="text-danger" asp-validation-for="Address"></span>
+            </div><br />
+
+            @****ISSUE WITH THE APPEARENCE OF THE SELECT DROPDOWN MENU *@
+            <div class="form-group row">
+                <label class="form-label" asp-for="OrderedBurgers"></label>
+                <select multiple="multiple" required class="form-control" asp-for="OrderedBurgers" asp-items="@ViewBag.Burgerss">
+                    @*<option selected disabled>=== Select Burgers ===</option>*@
+                </select>
+            </div><br />
+            @*<span class="text-danger" asp-validation-for="OrderedBurgers"></span>*@
+
+
+            <button class="btn btn-warning" type="submit">Create Order</button>
+        </form>
+    </div>
+</div>

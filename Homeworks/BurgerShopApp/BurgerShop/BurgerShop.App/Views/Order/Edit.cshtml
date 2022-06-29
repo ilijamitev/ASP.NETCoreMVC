@@ -1,0 +1,49 @@
+﻿@model EditOrderViewModel
+
+<h3 class="text-center text-warning">Edit order &numero; @Model.Id</h3>
+<br />
+<br />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Edit" method="post">
+            <table class="table table-hover text-center">
+                <thead>
+                    <tr>
+                        <th class="text-danger" scope="col" rowspan="1" colspan="3">Order Info</th>
+                        <th class="text-danger" scope="col" rowspan="1" colspan="2">Customer Info</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Order Id</th>
+                        <th scope="col">Delivered</th>
+                        <th scope="col">Total Price</th>
+                        <th scope="col">Full Name</th>
+                        <th scope="col">Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">@Model.Id</th>
+                        <td>
+                            <select asp-for="IsDelivered">
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select>
+                            <span class="text-danger" asp-validation-for="IsDelivered"></span>
+                        </td>
+                        <td>@ViewBag.TotalPrice</td>
+                        <td>
+                            <input required type="text" asp-for="FullName" value="@Model.FullName" />
+                            @*WHY THIS VALIDATION SPAN DOESN'T WORK (even when required attribute is removed from the input)*@
+                            <span class="text-danger" asp-validation-for="FullName"></span>
+                        </td>
+                        <td>
+                            <input required type="text" asp-for="Address" value="@Model.Address" />
+                            <span class="text-danger" asp-validation-for="Address"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><br />
+            <button class="btn btn-warning" type="submit">Edit Order</button>
+        </form>
+    </div>
+</div>

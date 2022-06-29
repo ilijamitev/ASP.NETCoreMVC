@@ -1,0 +1,52 @@
+﻿@model OrderDetailsViewModel
+
+@{
+    string isOrderDelivered = string.Empty;
+    string isOrderDeliveredColor = string.Empty;
+    if (Model.IsDelivered)
+    {
+        isOrderDelivered = "Yes";
+        isOrderDeliveredColor = "darkgreen";
+    }
+    else
+    {
+        isOrderDelivered = "No";
+        isOrderDeliveredColor = "red";
+    }
+}
+
+<h2 class="text-center text-warning">Order Details for order &numero; @Model.Id</h2>
+<br />
+<br />
+
+<table class="table table-hover text-center">
+    <thead>
+        <tr>
+            <th class="text-danger" scope="col" rowspan="1" colspan="4">Order Info</th>
+            <th class="text-danger" scope="col" rowspan="1" colspan="2">Customer Info</th>
+        </tr>
+        <tr>
+            <th scope="col">Order Id</th>
+            <th scope="col">Location</th>
+            <th scope="col">Delivered</th>
+            <th scope="col">Total Price</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.Id</th>
+            <td>@Model.Location</td>
+            <td style="color:@isOrderDeliveredColor;">@isOrderDelivered</td>
+            <td>@Model.TotalPrice</td>
+            <td>@Model.FullName</td>
+            <td>@Model.Address</td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<br />
+
+<partial name="~/Views/Shared/_BurgersInfoTable.cshtml" for="@Model.Burgers"></partial>
+

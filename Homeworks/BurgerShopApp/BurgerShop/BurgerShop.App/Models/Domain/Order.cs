@@ -5,19 +5,14 @@
         private static int _idGenerator = 0;
         public string FullName { get; set; }
         public string Address { get; set; }
-        public List<Burger> Burgers { get; set; }
-        public string Location { get; set; }
-        public bool IsDelivered { get; set; }
+        public List<Burger> Burgers { get; set; } = new List<Burger>();
+        public string Location { get; set; } = "Skopje";
+        public bool IsDelivered { get; set; } = false;
 
-
-        public Order(string fullName, string address, List<Burger> burgers, string location, bool isDelivered)
+        public Order()
         {
             Id = ++_idGenerator;
-            FullName = fullName;
-            Address = address;
-            Burgers = burgers;
-            Location = location;
-            IsDelivered = isDelivered;
         }
+             
     }
 }

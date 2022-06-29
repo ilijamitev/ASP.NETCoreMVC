@@ -1,0 +1,29 @@
+﻿@model List<BurgerViewModel>
+
+
+<table class="table table-hover text-center">
+    <thead>
+        <tr>
+            <th class="text-danger" scope="col" rowspan="1" colspan="5">Burger Info</th>
+        </tr>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Vegeterian</th>
+            <th scope="col">Vegan</th>
+            <th scope="col">Fries</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var burger in Model)
+        {
+            <tr>
+                <td>@burger.Name</td>
+                <td>@burger.Price</td>
+                <td>@(burger.IsVegeterian?"Yes":"No")</td>
+                <td>@(burger.IsVegan?"Yes":"No")</td>
+                <td>@(burger.HasFries?"Yes":"No")</td>
+            </tr>
+        }
+    </tbody>
+</table>

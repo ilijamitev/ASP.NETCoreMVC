@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dvlz9Kd58+k5o61gAXU1MYkwwPdxPkritEo6vaDFAx1GOE3UQ+wDo31hf3R2eYiffQrITF76GIAchax3CMZcFA==",
+  "dgSpecHash": "DG0WIzfepT3s30znMozaR80s5x5MgpHntXLzYdC8txeX2v840DfUq7+o5Hu1C1cvEROaJQMPenfOO8dpKKRmnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -22,8 +22,9 @@ namespace SEDC.PizzaApp.App.Models.Mappers
                 FullName = $"{order.User.FirstName} {order.User.LastName}",
                 Address = order.User.Address,
                 PizzaName = order.Pizza.Name,
-                PizzaPrice = order.Pizza.Price,
+                PizzaPrice = order.Pizza.IsOnPromotion ? order.Pizza.Price - 30 : order.Pizza.Price,
                 IsDelivered = order.IsDelivered,
+                PaymentMethod = order.PaymentMethod,
             };
         }
     }

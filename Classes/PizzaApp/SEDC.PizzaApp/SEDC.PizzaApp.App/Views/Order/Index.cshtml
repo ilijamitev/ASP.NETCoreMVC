@@ -9,8 +9,11 @@
     <ul>
         @foreach (var orderInfo in Model)
         {
+            <li><a asp-action="Details" asp-controller="Order" asp-route-id="@orderInfo.Id">@orderInfo.Id</a></li>
             <li><b>Pizza Name :</b> @orderInfo.PizzaName</li>
             <li><b>User Full Name :</b> @orderInfo.UserFullName</li>
+            <li><a class="text-danger" asp-action="Delete" asp-route-id="@orderInfo.Id">Delete</a></li>
+            <li><a class="text-warning" asp-action="Edit" asp-route-id="@orderInfo.Id">Edit</a></li>
             <br />
         }
     </ul>

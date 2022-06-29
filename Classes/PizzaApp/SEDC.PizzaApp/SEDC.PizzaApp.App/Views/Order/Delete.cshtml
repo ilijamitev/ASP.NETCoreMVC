@@ -1,0 +1,6 @@
+﻿@model OrderDetailsViewModel
+
+<h3>Are you sure you want to delete order &numero; @Model.OrderId</h3>
+
+<a class="text-danger" asp-action="ConfirmDelete" asp-route-id="@Model.OrderId">Confirm</a>
+<a class="text-primary" asp-action="Index">Cancel</a>

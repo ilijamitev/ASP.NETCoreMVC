@@ -6,7 +6,7 @@ using SEDC.PizzaApp.App.Models.ViewModels;
 
 namespace SEDC.PizzaApp.App.Controllers
 {
-    [Route("orders")]
+    //[Route("orders")]
     public class OrderController : Controller
     {
         private readonly IMapper _mapper;
@@ -61,7 +61,7 @@ namespace SEDC.PizzaApp.App.Controllers
         #endregion
 
 
-        [HttpGet("details/{id}")]
+        //[HttpGet("details/{id}")]
         // USING THE AUTO MAPPER ==>
         public IActionResult Details(int? id)
         {
@@ -80,6 +80,78 @@ namespace SEDC.PizzaApp.App.Controllers
         //    return View(model);
         //}
         #endregion
+
+        [HttpGet("create")]
+        public IActionResult Create()
+        {
+            ViewBag.Users = StaticDb.Users.Select(_mapper.Map<User, UserSelectViewModel>).ToList();
+            OrderViewModel model = new();
+            return View(model);
+        }
+
+        [HttpPost("create")]
+        public IActionResult Create(OrderViewModel order)
+        {
+            if (ModelState.IsValid)
+            {
+                order.Id = StaticDb.Orders.Count + 1;
+                Pizza pizzaFromDb = StaticDb.Pizzas.FirstOrDefault(x => x.Name.ToLower() == order.PizzaName.ToLower());
+                var newOrder = _mapper.Map<Order>(order);
+                StaticDb.Orders.Add(newOrder);
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        // Create EDIT action for home
+        // Add EditViewModel
+        // Add view for editing orders
+        // Dont't forget to populate the users list so that it will be displayed for editing
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var order = StaticDb.Orders.FirstOrDefault(o => o.Id == id);
+            var model = _mapper.Map<EditOrderViewModel>(order);
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(EditOrderViewModel editedOrder)
+        {
+            if (ModelState.IsValid)
+            {
+                var order = StaticDb.Orders.FirstOrDefault(o => o.Id == editedOrder.Id);
+                order.IsDelivered = editedOrder.IsDelivered;
+                order.User.FirstName = editedOrder.FirstName;
+                order.User.LastName = editedOrder.LastName;
+                order.User.Address = editedOrder.Address;
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id == null) return new EmptyResult();
+
+            Order orderfromDb = StaticDb.Orders.SingleOrDefault(x => x.Id == id);
+            if (orderfromDb == null) return View("ResourceNotFound");
+
+            OrderDetailsViewModel orderDetailsViewModel = _mapper.Map<OrderDetailsViewModel>(orderfromDb);
+            return View(orderDetailsViewModel);
+        }
+
+        public IActionResult ConfirmDelete(int? id)
+        {
+            Order orderFromDb = StaticDb.Orders.SingleOrDefault(x => x.Id == id);
+            if (orderFromDb == null) return View("ResourceNotFound");
+            StaticDb.Orders.Remove(orderFromDb);
+            return RedirectToAction("Index");
+        }
+
 
         [HttpGet("details/json")]
         public IActionResult GetJsonData()

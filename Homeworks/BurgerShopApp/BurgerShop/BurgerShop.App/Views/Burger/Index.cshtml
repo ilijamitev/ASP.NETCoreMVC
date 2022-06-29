@@ -1,0 +1,9 @@
+﻿@model List<BurgerViewModel>
+@{
+    ViewData["Title"] = "Burger Menu";
+}
+
+<h2 class="text-center text-warning">Burger Menu</h2>
+<br />
+
+<partial name="~/Views/Shared/_BurgersInfoTable.cshtml" for="@Model"></partial>
