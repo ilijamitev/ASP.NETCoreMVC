@@ -1,0 +1,17 @@
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.DataAccess.deps.json
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.DataAccess.dll
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.DataAccess.pdb
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.Domain.dll
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.Domain.pdb
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.AssemblyInfo.cs
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.csproj.CopyComplete
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.dll
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\refint\PizzaApp.DataAccess.dll
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.pdb
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\ref\PizzaApp.DataAccess.dll
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\bin\Debug\net6.0\PizzaApp.DataAccess.runtimeconfig.json
+C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Classes\PizzApp - Refactored\PizzApp\PizzaApp.DataAccess\obj\Debug\net6.0\PizzaApp.DataAccess.genruntimeconfig.cache

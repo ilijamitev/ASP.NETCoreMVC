@@ -23,6 +23,8 @@ namespace BurgerShop.App.Models.Mappers
 
             CreateMap<Order, DeleteOrderViewModel>();
 
+            CreateMap<Burger, BurgerSelectViewModel>();
+
         }
     }
 }

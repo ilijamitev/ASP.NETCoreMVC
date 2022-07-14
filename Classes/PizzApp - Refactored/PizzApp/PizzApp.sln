@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzApp.Refactored", "PizzApp.Refactored\PizzApp.Refactored.csproj", "{5BB25756-E666-4ADB-A862-8A4723ACC916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp.Domain", "PizzaApp.Domain\PizzaApp.Domain.csproj", "{B23CC2CE-1F09-4A81-AA58-54098028B05A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp.DataAccess", "PizzaApp.DataAccess\PizzaApp.DataAccess.csproj", "{AE824DD5-B9BC-415B-B9BD-7912E02CB0B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp.Services", "PizzaApp.Services\PizzaApp.Services.csproj", "{1DE4D4A6-60F1-4749-BD3E-8F7011D55AD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp.Mappers", "PizzaApp.Mappers\PizzaApp.Mappers.csproj", "{3213B5FF-610F-4558-BE73-D3CED7AA9DFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp.Helpers", "PizzaApp.Helpers\PizzaApp.Helpers.csproj", "{9DE77DAF-9748-496D-BBBA-41C64DF8C4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.ViewModels", "PizzaApp.ViewModels\PizzaApp.ViewModels.csproj", "{8B54536A-791B-415F-B240-58972065BDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB25756-E666-4ADB-A862-8A4723ACC916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB25756-E666-4ADB-A862-8A4723ACC916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB25756-E666-4ADB-A862-8A4723ACC916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB25756-E666-4ADB-A862-8A4723ACC916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23CC2CE-1F09-4A81-AA58-54098028B05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23CC2CE-1F09-4A81-AA58-54098028B05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23CC2CE-1F09-4A81-AA58-54098028B05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23CC2CE-1F09-4A81-AA58-54098028B05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE824DD5-B9BC-415B-B9BD-7912E02CB0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE824DD5-B9BC-415B-B9BD-7912E02CB0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE824DD5-B9BC-415B-B9BD-7912E02CB0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE824DD5-B9BC-415B-B9BD-7912E02CB0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE4D4A6-60F1-4749-BD3E-8F7011D55AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE4D4A6-60F1-4749-BD3E-8F7011D55AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE4D4A6-60F1-4749-BD3E-8F7011D55AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE4D4A6-60F1-4749-BD3E-8F7011D55AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3213B5FF-610F-4558-BE73-D3CED7AA9DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3213B5FF-610F-4558-BE73-D3CED7AA9DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3213B5FF-610F-4558-BE73-D3CED7AA9DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3213B5FF-610F-4558-BE73-D3CED7AA9DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE77DAF-9748-496D-BBBA-41C64DF8C4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE77DAF-9748-496D-BBBA-41C64DF8C4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE77DAF-9748-496D-BBBA-41C64DF8C4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE77DAF-9748-496D-BBBA-41C64DF8C4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B54536A-791B-415F-B240-58972065BDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B54536A-791B-415F-B240-58972065BDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B54536A-791B-415F-B240-58972065BDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B54536A-791B-415F-B240-58972065BDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1594222-43DF-476E-9EBD-F019BA5E82F2}
+	EndGlobalSection
+EndGlobal
