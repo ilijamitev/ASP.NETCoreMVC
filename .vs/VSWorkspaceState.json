@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Classes",
+    "\\Classes\\RefactoredPizzaApp",
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp",
+    "\\ClassMaterials",
+    "\\ClassMaterials\\img",
+    "\\Homeworks"
   ],
+  "SelectedNode": "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.sln",
   "PreviewInSolutionExplorer": false
 }
