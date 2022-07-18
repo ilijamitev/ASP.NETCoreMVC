@@ -4,10 +4,11 @@
     "\\Classes",
     "\\Classes\\RefactoredPizzaApp",
     "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp",
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess",
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\Relations",
     "\\ClassMaterials",
     "\\ClassMaterials\\img",
     "\\Homeworks"
   ],
-  "SelectedNode": "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.sln",
   "PreviewInSolutionExplorer": false
 }
