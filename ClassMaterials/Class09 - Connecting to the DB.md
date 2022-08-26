@@ -112,13 +112,25 @@ For entity framework to keep track of all the changes in our code and the databa
 
 For us to create a database first we need to create a migration. This is the first migration from which the database will be built. This migration is usually called something like init or with the word init to mark it as the first initial migration. After we migrate, the migration is created in our project. Migrations in the project do not change the database. If we want to update the database with the latest migration we must write a command.
 
-#### Add Migration Command
+#### Add Migration Command (true)
+
+```cmd
+add-migration Init
+```
+
+#### Add Migration Command (false)
 
 ```cmd
 dotnet ef migrations add MyFirstMigration
 ```
 
-#### Update Database
+#### Update Database (true)
+
+```cmd
+update-database
+```
+
+#### Update Database (false)
 
 ```cmd
 dotnet ef database update

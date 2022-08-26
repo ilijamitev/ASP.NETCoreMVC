@@ -134,7 +134,7 @@ public class UserService : IUserService
 
 ```csharp
 // Here we register what class will be created when asked for an interface implementation
-builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IUserService, UserService>();
 ```
 
 #### In controller  ( Using the service )
