@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Classes",
+    "\\Classes\\PizzApp - Refactored",
+    "\\Classes\\PizzApp - Refactored\\PizzApp",
+    "\\Classes\\PizzApp - Refactored\\PizzApp\\PizzaApp.Mappers",
     "\\Classes\\RefactoredPizzaApp",
     "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp",
-    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess",
-    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.DataAccess\\Relations",
-    "\\ClassMaterials",
-    "\\ClassMaterials\\img",
-    "\\Homeworks"
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Refactored",
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Refactored\\Views",
+    "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Refactored\\Views\\Order"
   ],
+  "SelectedNode": "\\Classes\\RefactoredPizzaApp\\SEDC.PizzaApp\\SEDC.PizzaApp.Refactored\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }

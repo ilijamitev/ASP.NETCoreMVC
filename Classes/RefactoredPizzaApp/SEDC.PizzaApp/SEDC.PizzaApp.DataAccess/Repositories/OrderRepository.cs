@@ -31,7 +31,7 @@ namespace SEDC.PizzaApp.DataAccess.Repositories
                    .Include(x => x.PizzaOrders)
                    .ThenInclude(x => x.Pizza)
                    .Include(x => x.User)
-                   .FirstOrDefault(x => x.Id == id);
+                   .FirstOrDefault(x => x.Id == id)!;
         }
         public void Insert(Order entity)
         {

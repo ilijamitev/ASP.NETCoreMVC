@@ -11,7 +11,7 @@ using SEDC.PizzaApp.DataAccess.Data;
 namespace SEDC.PizzaApp.DataAccess.Migrations
 {
     [DbContext(typeof(PizzaAppDbContext))]
-    [Migration("20220709100453_Init")]
+    [Migration("20220810191257_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
