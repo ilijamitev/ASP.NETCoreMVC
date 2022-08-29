@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BurgerShop.App
 build_property.RootNamespace = BurgerShop.App
-build_property.ProjectDir = C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Homeworks\BurgerShopApp\BurgerShop\BurgerShop.App\
+build_property.ProjectDir = D:\WebDevelopment\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Homeworks\BurgerShopApp\BurgerShop\BurgerShop.App\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Tijana i Ilija\Desktop\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Homeworks\BurgerShopApp\BurgerShop\BurgerShop.App
+build_property.MSBuildProjectDirectory = D:\WebDevelopment\Seavus\VTOR SEMESTAR\ASP.NETCoreMVC\Homeworks\BurgerShopApp\BurgerShop\BurgerShop.App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Burger/Index.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Burger/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Home/Index.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Home/Privacy.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Create.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Delete.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Details.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Edit.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Index.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/Error.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_BurgersInfoTable.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_BurgersInfoTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXJnZXJzSW5mb1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/_ViewImports.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/_ViewStart.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tijana i Ilija/Desktop/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_Layout.cshtml]
+[D:/WebDevelopment/Seavus/VTOR SEMESTAR/ASP.NETCoreMVC/Homeworks/BurgerShopApp/BurgerShop/BurgerShop.App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ha4nq4bnwf

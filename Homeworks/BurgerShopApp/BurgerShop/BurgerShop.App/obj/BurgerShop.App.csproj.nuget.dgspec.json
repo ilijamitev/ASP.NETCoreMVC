@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj": {}
+    "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj": {
+    "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
+        "projectUniqueName": "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
         "projectName": "BurgerShop.App",
-        "projectPath": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
+        "projectPath": "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
         "packagesPath": "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\obj\\",
+        "outputPath": "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

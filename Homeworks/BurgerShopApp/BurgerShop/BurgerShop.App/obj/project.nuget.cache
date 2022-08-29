@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "POnoToqRJ4LKgA2aIkiAWaiLb9QGjGCwEiVjZ2Eha3JVmOweIBWHAyoS6PtOqqfnyJ+YcyBHGQ+X7/1z7kYv4A==",
+  "dgSpecHash": "ht3k/oT9j4xB6ufOg/qDTAgiJlFaI00CpgnRV7FfuR2vToAH/81RJqW607tFgsUFy/TGmyd3ehF9Ed/BBqiQCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tijana i Ilija\\Desktop\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
+  "projectFilePath": "D:\\WebDevelopment\\Seavus\\VTOR SEMESTAR\\ASP.NETCoreMVC\\Homeworks\\BurgerShopApp\\BurgerShop\\BurgerShop.App\\BurgerShop.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Tijana i Ilija\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
